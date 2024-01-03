@@ -29,10 +29,6 @@
 ### チーム体制
 PdM1名、PD1名、Dev4名、QA1名
 
-### 主な担当業務
-* 仕様策定/開発/テスト/インフラ・CICD環境整備
-* ドキュメント整備
-
 ### 利用技術
 Kotlin, Spring Boot, TypeScript、React, PostgreSQL, AWS, Terraform,Github Actions, ecspresso, DDD, Clean Architecture
 
@@ -60,7 +56,7 @@ Kotlin, Spring Boot, TypeScript、React, PostgreSQL, AWS, Terraform,Github Actio
 ### 概要
 施設が保護者に請求する保育料のインボイス制度に対応する必要があった。消費税計算処理と、その結果を表示するブラウザ・Excel/CSV出力・モバイルアプリの改修を担当した。
 
-### 主な担当業務
+### 担当業務
 - クラス設計/開発/テスト
 
 ### 工夫したこと
@@ -77,7 +73,7 @@ PHP, TypeScript、DDD, Clean Architecture
 ### 概要
 保育料計算バッチ処理の改修を担当。この機能は、施設種別や補助金の有無、各園児の契約状況・利用実績など、様々な変数によって算出を行うため、複雑な仕様理解と多角的なテストケースを必要とする改修であった。
 
-### 主な担当業務
+### 担当業務
 * ビジネスサイドとのリリーススケジュール調整
 * 開発/テスト
 * ドキュメント整備・新規参画メンバーのフォロー
