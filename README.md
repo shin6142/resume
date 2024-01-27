@@ -19,8 +19,6 @@
 運用保守では、不具合改修や機能追加、ユーザーからの問い合わせを担当。
 新規開発では、アプリケーション開発に加え、CICDの整備やIaCツールによるインフラリソース構築を担当。
 
----
-
 ## 新規機能開発
 2023年10月 - 現在
 
@@ -49,8 +47,6 @@
 ### 利用技術
 Kotlin, Spring Boot, TypeScript、React, PostgreSQL, AWS, Terraform,Github Actions, ecspresso, DDD, Clean Architecture
 
-
----
 ## 消費税計算・請求書作成機能のインボイス対応
 2023年7月 - 2023年9月
 
@@ -68,7 +64,6 @@ Kotlin, Spring Boot, TypeScript、React, PostgreSQL, AWS, Terraform,Github Actio
 ### 利用技術
 PHP, TypeScript、DDD, Clean Architecture
 
----
 ## 保育料計算バッジ処理の改修
 2023年4月 - 2023年7月
 
