@@ -1,12 +1,12 @@
 # 基本情報
 
 * 名前：山家 紳（やまが しん）
-* 生年月日：1998年4月8日
 * 経験技術（実務）：PHP、Kotlin、TypeScript、Spring Boot、React、Terraform、AWS、Docker、Git
 * 経験技術（個人開発・独学）：Python、Java、Ruby、Ruby on Rails
 * やりたいこと・大切にしたいこと
     * 利用者のフィードバックを得ながらサービスの開発をすること
-    * 技術の好き嫌いをせず、目の前の課題に対して必要な技術を身につけていくこと
+    * ドメイン知識を身につけること
+    * 技術の好き嫌いをせず、目の前の課題に対して必要な技術を身につけること
 * なりたいエンジニア像
     * プロダクト開発のあらゆる局面で活躍できるエンジニア
     * SRE的視点を持ったアプリケーションエンジニア
@@ -19,26 +19,21 @@
 運用保守では、不具合改修や機能追加、ユーザーからの問い合わせを担当。
 新規開発では、アプリケーション開発に加え、CICDの整備やIaCツールによるインフラリソース構築を担当。
 
-## 新規マイクロサービス開発
+---
+
+## 新規機能開発
 2023年10月 - 現在
 
 ### 概要
 
-施設と保護者間の用品販売・購入を管理する新規サービスの開発
+施設と保護者間の用品販売・購入を管理する新規機能の開発
 
-### チーム体制
-PdM1名、PD1名、Dev4名、QA1名
-
-### 利用技術
-Kotlin, Spring Boot, TypeScript、React, PostgreSQL, AWS, Terraform,Github Actions, ecspresso, DDD, Clean Architecture
-
-### 取り組んだこと
+### 担当業務
 * 仕様の検討・策定
-* Spring Boot（Kotlin）によるAPI開発
-* React（TypeScript）によるフロントエンド開発
+* フロントエンド・バックエンド開発
+* インフラ構築
 * Design docの作成
-* TerraformによるAWSリソース管理
-* Github Actions, ecspressoによるCICD整備
+* CICD整備
 * 負荷試験
 
 ### 工夫したこと
@@ -48,8 +43,14 @@ Kotlin, Spring Boot, TypeScript、React, PostgreSQL, AWS, Terraform,Github Actio
 
 * 手戻りを防ぐための、PdM・PDとのE2Eテスト作成。
 
-    考慮漏れによる実装の手戻りやテストケースの不足を防ぐため、実装前に自動E2Eテストの作成をPdMと実施しました。Gauge/Playwrightを使用してマークダウン形式の自動E2Eスクリプトを作成することで、技術用語を使用せず受け入れ条件の認識を揃えることができた。
+    考慮漏れによる実装の手戻りやテストケースの不足を防ぐため、実装前に自動E2Eテストの作成をPdMと実施した。Gauge/Playwrightを使用してマークダウン形式の自動E2Eスクリプトを作成することで、技術用語を使用せず受け入れ条件の認識を揃えることができた。
 
+
+### 利用技術
+Kotlin, Spring Boot, TypeScript、React, PostgreSQL, AWS, Terraform,Github Actions, ecspresso, DDD, Clean Architecture
+
+
+---
 ## 消費税計算・請求書作成機能のインボイス対応
 2023年7月 - 2023年9月
 
@@ -67,6 +68,7 @@ Kotlin, Spring Boot, TypeScript、React, PostgreSQL, AWS, Terraform,Github Actio
 ### 利用技術
 PHP, TypeScript、DDD, Clean Architecture
 
+---
 ## 保育料計算バッジ処理の改修
 2023年4月 - 2023年7月
 
