@@ -37,7 +37,7 @@
 ### 工夫したこと
 * チームメンバーが苦手としていることを引き受けること。
 
-    シニアメンバーが育休取得で不在になり、インフラに明るいメンバーがチームにいない状態となった。そこで、自らインフラ構築やCICD業務を引き受け、TerraformによるAWSリソース作成や、Github Actions, ecspressoを利用したCICD整備を牽引した。また、SREチームから得た知見をチームに還元したり、Design Docを作成することでシステムに対する認知負荷を下げることに取り組んだ。その結果、チームが自立してインフラリソースやCICDの管理ができるようになった。
+    シニアメンバーが育休取得で不在になり、インフラに明るいメンバーがチームにいない状態となった。そこで、自らインフラ構築やCICD業務を引き受け、TerraformによるAWSリソース作成や、GitHub Actions, ecspressoを利用したCICD整備を牽引した。また、SREチームから得た知見をチームに還元したり、Design Docを作成することでシステムに対する認知負荷を下げることに取り組んだ。その結果、チームが自立してインフラリソースやCICDの管理ができるようになった。
 
 * 手戻りを防ぐための、PdM・PDとのE2Eテスト作成。
 
@@ -45,7 +45,7 @@
 
 
 ### 利用技術
-Kotlin, Spring Boot, TypeScript, React, PostgreSQL, AWS, Terraform,Github Actions, ecspresso, DDD, Clean Architecture
+Kotlin, Spring Boot, TypeScript, React, PostgreSQL, AWS, Terraform,GitHub Actions, ecspresso, DDD, Clean Architecture
 
 ## 消費税計算・請求書作成機能のインボイス対応
 2023年7月 - 2023年9月
