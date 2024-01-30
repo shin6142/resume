@@ -1,7 +1,7 @@
 # 基本情報
 
 * 名前：山家 紳（やまが しん）
-* 経験技術（実務）：PHP、Kotlin、TypeScript、Spring Boot、React、Terraform、AWS、Docker、Git
+* 経験技術（実務）：PHP、Kotlin (得意)、TypeScript、Spring Boot、React、Terraform、AWS、Docker、Git
 * 経験技術（個人開発・独学）：Python、Java、Ruby、Ruby on Rails
 * やりたいこと・大切にしたいこと
     * 利用者のフィードバックを得ながらサービスの開発をすること
@@ -37,7 +37,7 @@
 ### 工夫したこと
 * チームメンバーが苦手としていることを引き受けること。
 
-    シニアメンバーが育休取得で不在になり、インフラに明るいメンバーがチームにいない状態となった。そこで、自らインフラ構築やCICD業務を引き受け、TerraformによるAWSリソース作成や、GitHub Actions, ecspressoを利用したCICD整備を牽引した。また、SREチームから得た知見をチームに還元したり、Design Docを作成することでシステムに対する認知負荷を下げることに取り組んだ。その結果、チームが自立してインフラリソースやCICDの管理ができるようになった。
+    シニアメンバーが育休取得で不在になり、インフラに明るいメンバーがチームにいない状態となった。そこで、自らインフラ構築やCICD業務を引き受け、TerraformによるAWSリソース作成や、GitHub Actions、 ecspressoを利用したCICD整備を牽引した。また、SREチームから得た知見をチームに還元したり、Design Docを作成することでシステムに対する認知負荷を下げることに取り組んだ。その結果、チームが自立してインフラリソースやCICDの管理ができるようになった。
 
 * 手戻りを防ぐための、PdM・PDとのE2Eテスト作成。
 
@@ -45,7 +45,7 @@
 
 
 ### 利用技術
-Kotlin, Spring Boot, TypeScript, React, PostgreSQL, AWS, Terraform,GitHub Actions, ecspresso, DDD, Clean Architecture
+Kotlin、 Spring Boot、 TypeScript、 React、 PostgreSQL、 AWS、 Terraform、GitHub Actions、 ecspresso、 DDD、 Clean Architecture
 
 ## 消費税計算・請求書作成機能のインボイス対応
 2023年7月 - 2023年9月
@@ -62,7 +62,7 @@ Kotlin, Spring Boot, TypeScript, React, PostgreSQL, AWS, Terraform,GitHub Action
     既存のソースコードは、各APIインターフェイスごとにビジネスロジックとDBアクセス処理が手続き型で実装されており、改修対象である消費税計算ロジックが各APIに点在している状態であった。そこで、変更を加える前に既存の消費税計算に共通化するリファクタリングを行った。その結果、消費税計算の処理のテスト容易性と変更容易性を向上した。
 
 ### 利用技術
-PHP, TypeScript, DDD, Clean Architecture
+PHP、 TypeScript、 DDD、 Clean Architecture
 
 ## 保育料計算バッジ処理の改修
 2023年4月 - 2023年7月
@@ -89,4 +89,4 @@ PHP, TypeScript, DDD, Clean Architecture
     メンバー間で保育料計算ロジックに対する理解度にばらつきがあった。そこでホワイトボードツール（Miro）を利用し、計算ロジックを図解できるようにした。また、多角的な計算パターンを機能から把握できるようにローカル環境にサンプルデータを作成した。その結果、メンバー間のドメイン知識の差を解消し、誰でも当機能の改修に参画することができるようになった。
 
 ### 利用技術
-PHP, TypeScript, DDD, Clean Architecture
+PHP、 TypeScript、 DDD、 Clean Architecture
