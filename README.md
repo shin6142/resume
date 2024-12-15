@@ -15,7 +15,7 @@
 - [Loglass 人員計画](https://www.loglass.jp/lp/wfp_n01)の開発を担当。
 
 
-**株式会社コドモン (2022年4月〜2024年4月)**
+**株式会社コドモン (2022年10月〜2024年4月)**
 - 保育ICTSaaSコドモンの[請求管理・集金支援機能](https://www.codmon.com/service/billing/)の開発を担当。
 
 ## 新規機能開発
